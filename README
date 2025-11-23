@@ -1,6 +1,6 @@
-🚀 KeanSeatsTracker: 温州肯恩大学课程余位监控与抢课系统
+🚀 KeanSeatsMonitor: 温州肯恩大学课程余位监控与抢课系统
 简介
-KeanSeatsTracker Pro 是一款专为温州肯恩大学（Wenzhou-Kean University）学生设计的高级课程余位监控与辅助注册工具。
+KeanSeatsMonitor是一款专为温州肯恩大学（Wenzhou-Kean University）学生设计的高级课程余位监控与辅助注册工具。
 
 本工具基于高性能自动化技术，实时追踪 Ellucian Colleague 选课系统中的目标课程空位，并在发现空位的第一时间尝试自动触发注册，帮助所有学生在公平、高效的环境下完成选课。
 
@@ -21,11 +21,11 @@ KeanSeatsTracker Pro 是一款专为温州肯恩大学（Wenzhou-Kean University
 
 访问 [Release 页面]：[https://github.com/Daozhu1007/KeanSeatsMonitor/releases]
 
-下载：下载最新的 KeanSeatsTracker_vX.X.X.zip 文件。
+下载：下载最新的 KeanSeatsMonitor_vX.X.X.zip 文件。
 
 解压：将整个 ZIP 文件解压到一个独立的文件夹中。
 
-运行：双击解压后的文件夹内的 KeanSeatsTracker.exe 即可启动。
+运行：双击解压后的文件夹内的 KeanSeatsMonitor.exe 即可启动。
 
 ⚠️ 注意事项
 本程序内置了所需的浏览器驱动 (msedgedriver.exe 和 chromedriver.exe)。
