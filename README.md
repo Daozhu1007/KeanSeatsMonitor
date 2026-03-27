@@ -44,7 +44,7 @@
 ### 安装步骤
 
 1. 下载最新版本：  
-   `KeanSeatsMonitor_vX.X.X.zip`
+   `KeanSeatsMonitor_v1.0.0.zip`
 
 2. 解压文件到任意目录
 
