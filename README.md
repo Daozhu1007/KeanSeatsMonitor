@@ -1,149 +1,87 @@
-# 🚀 KeanSeatsMonitor  
-温州肯恩大学课程余位监控与辅助选课系统
+<div align="center">
+
+# KeanSeatsMonitor
+
+**Legacy course-seat monitoring and registration assistant for Wenzhou-Kean University**
+
+[![Status: Archived](https://img.shields.io/badge/status-archived-red.svg)](https://github.com/Daozhu1007/KeanSeatsCatcher)
+[![Successor: KeanSeatsCatcher](https://img.shields.io/badge/successor-KeanSeatsCatcher-blue.svg)](https://github.com/Daozhu1007/KeanSeatsCatcher)
+
+</div>
+
+> [!IMPORTANT]
+> **KeanSeatsMonitor is no longer maintained or updated.**  
+> Please use its actively maintained successor: **[KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**.
+>
+> **KeanSeatsMonitor 已停止更新与维护。**  
+> 请改用目前仍在维护的新项目：**[KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**。
 
 ---
 
-## 📌 项目简介
+## English
 
-**KeanSeatsMonitor** 是一款专为温州肯恩大学（Wenzhou-Kean University）学生设计的课程余位监控与辅助注册工具。
+### Project status
 
-本工具基于浏览器自动化技术，能够实时追踪 Ellucian Colleague 选课系统中的目标课程空位，并在检测到空位的第一时间尝试执行注册操作，帮助用户更高效地完成选课流程。
+This repository is preserved for historical reference only. Its releases, dependencies, browser automation logic, and registration workflow may no longer be compatible with the current university registration system.
 
----
+New installations and continued use of this legacy version are not recommended.
 
-## 📢 作者声明 (Designer’s Note)
+### About this project
 
-当前校园中存在“占课”等不公平现象，严重影响正常选课秩序。
+KeanSeatsMonitor was created for students at Wenzhou-Kean University. It used browser automation to monitor available seats in selected course sections and could optionally attempt registration when a seat became available.
 
-本项目的初衷是利用技术手段提升信息获取效率，从而缓解信息不对称问题。希望大家在使用本工具的同时，共同维护公平、有序的选课环境。
+The project included:
 
----
+- Course-seat availability monitoring
+- Optional automatic registration attempts
+- Monitoring of multiple section codes
+- A Tkinter-based desktop interface
 
-## ✨ 核心功能
+### Successor project
 
-- ⚡ **极速课位监控**  
-  实时检测课程余位变化，提供秒级响应
+Development has moved to **[KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**, which is the recommended version for current users.
 
-- 🤖 **自动注册功能（可选）**  
-  当检测到课程余位（Available Seats > 0）时，自动尝试点击注册按钮
+KeanSeatsCatcher provides a newer architecture and broader deployment options, including a desktop GUI and a headless CLI mode.
 
-- 🎯 **多目标课程追踪**  
-  支持同时监控多个 Section Code
+➡️ **[Go to KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**
 
-- 🖥️ **图形化界面（GUI）**  
-  基于 Tkinter 构建，操作简单，日志清晰
+### Disclaimer
 
----
+This software was created for learning, research, and personal auxiliary use only. Users are responsible for complying with all university policies and registration-system rules.
 
-## 📥 下载与安装
-
-本项目采用 **闭源 Release 发布**，请通过 GitHub 下载：
-
-👉 [Release 页面](https://github.com/Daozhu1007/KeanSeatsMonitor/releases)
-
-### 安装步骤
-
-1. 下载最新版本：  
-   `KeanSeatsMonitor_v1.0.0.zip`
-
-2. 解压文件到任意目录
-
-3. 运行程序：KeanSeatsMonitor.exe
+The author provides no warranty and is not responsible for registration failures, account restrictions, service interruptions, or other consequences arising from use of this legacy software.
 
 ---
 
-## ⚠️ 注意事项
+## 中文
 
-- 程序已内置浏览器驱动（`msedgedriver.exe` 和 `chromedriver.exe`）
-- 首次运行时，需要在弹出的浏览器中**手动完成登录**
+### 项目状态
 
----
+本仓库仅作为历史项目保留。旧版本的依赖、浏览器自动化逻辑及选课流程可能已经无法适配当前的学校选课系统。
 
-## 💡 使用指南
+不建议新用户继续下载安装或使用本项目。
 
-### 1️⃣ 登录系统
-启动程序后，会自动打开浏览器  
-→ 手动完成 Kean 系统登录和验证
+### 项目简介
 
-### 2️⃣ 设置参数
-- 输入学期代码
-- 输入课程 Section Code（例如：`COMM*1402*W01`）
-- 设置监控间隔（秒）
+KeanSeatsMonitor 是一款面向温州肯恩大学学生的课程余位监控与辅助注册工具。它通过浏览器自动化监控指定课程的余位，并可在检测到空位时尝试执行注册操作。
 
-### 3️⃣ 开始运行
-- ▶️ **仅监控模式**：点击「开始监控」
-- 🤖 **自动抢课模式**：勾选“尝试自动抢课”后再启动
+原项目主要包含：
 
----
+- 课程余位监控
+- 可选的自动注册尝试
+- 多个 Section Code 同时监控
+- 基于 Tkinter 的桌面图形界面
 
-## 📬 联系作者
+### 后续项目
 
-- 📧 Email：Daozhu1007@outlook.com  
-- 💬 微信：Limitime107  
-- 🐧 QQ：869920298  
-- 📺 B站主页：https://space.bilibili.com/477852567  
+本项目的后续开发已经迁移至 **[KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**，请所有新用户使用该项目。
 
----
+KeanSeatsCatcher 采用了更新的架构，并提供桌面 GUI 与无界面 CLI 等更多运行方式。
 
-## ⚠️ 免责声明
+➡️ **[前往 KeanSeatsCatcher](https://github.com/Daozhu1007/KeanSeatsCatcher)**
 
-本软件仅供学习交流及个人辅助使用。
+### 免责声明
 
-在使用本软件时，您必须遵守温州肯恩大学及相关选课系统的所有规定。  
-作者不对因使用本软件产生的任何后果负责，包括但不限于：
+本软件仅供学习、研究及个人辅助使用。使用者有责任遵守学校及相关选课系统的全部规定。
 
-- 选课失败  
-- 账号限制或封禁  
-- 系统异常等  
-
-**使用本软件即代表您已理解并接受所有潜在风险。**
-
----
----
-
-## ⚠️ 注意事项
-
-- 程序已内置浏览器驱动（`msedgedriver.exe` 和 `chromedriver.exe`）
-- 首次运行时，需要在弹出的浏览器中**手动完成登录**
-
----
-
-## 💡 使用指南
-
-### 1️⃣ 登录系统
-启动程序后，会自动打开浏览器  
-→ 手动完成 Kean 系统登录和验证
-
-### 2️⃣ 设置参数
-- 输入学期代码
-- 输入课程 Section Code（例如：`COMM*1402*W01`）
-- 设置监控间隔（秒）
-
-### 3️⃣ 开始运行
-- ▶️ **仅监控模式**：点击「开始监控」
-- 🤖 **自动抢课模式**：勾选“尝试自动抢课”后再启动
-
----
-
-## 📬 联系作者
-
-- 📧 Email：Daozhu1007@outlook.com  
-- 💬 微信：Limitime107  
-- 🐧 QQ：869920298  
-- 📺 B站主页：https://space.bilibili.com/477852567  
-
----
-
-## ⚠️ 免责声明
-
-本软件仅供学习交流及个人辅助使用。
-
-在使用本软件时，您必须遵守温州肯恩大学及相关选课系统的所有规定。  
-作者不对因使用本软件产生的任何后果负责，包括但不限于：
-
-- 选课失败  
-- 账号限制或封禁  
-- 系统异常等  
-
-**使用本软件即代表您已理解并接受所有潜在风险。**
-
+本项目不提供任何形式的担保。作者不对选课失败、账号限制、服务异常或使用旧版软件产生的其他后果负责。
